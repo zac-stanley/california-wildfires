@@ -1,1 +1,3 @@
 # california-wildfires
+1. For the final project I will make a Mapbox Style of California Wildfires greater 10k Acres from 1878 to 2018. The map will use graduated symbols points based on acreage at the scale of the state and change to actual polygon extent of fires when zoomed to the county level. It will included dynamic labeling that lists the fire name, size in acres and year that i also scale dependent.
+2. The data source is The California Department of Forestry and Fire Protection's Fire and Resource Assessment Program (FRAP). https://frap.fire.ca.gov/mapping/gis-data/
