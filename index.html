@@ -56,13 +56,16 @@
         }
 
         p {
-            font-family: 'Century', sans-serif;
-            font-size: 1.15em;
+            font-family: 'Candara';
+            color: #556577;
+            font-size: 1.2em;
             line-height: 1.8em;
             margin: 0 0 25px 0;
         }
 
         a {
+            font-family: 'Candara';
+            font-size: 1.2em;
             color: #d35a27;
             text-decoration: none;
         }
@@ -75,7 +78,7 @@
             padding: 0px 20px 4px 20px;
             /* font-size: 0.96em; */
             line-height: 1.6em;
-            color: #63666a;
+            color: #556577;
         }
 
         li {
@@ -116,9 +119,9 @@
 
         .column {
             float: left;
-            width: 48%;
+            width: 35%;
         }
-
+       
         /* Clear floats after the columns */
 
         .row:after {
@@ -153,15 +156,14 @@
     <section>
         
         <a href='map_full.html' class="linkbox">Full-screen version</a>
-        <p>    10,000-500,000 acres in size when zoomed out. <img src="Willdfires_GraduatedLegend.png" align="left"><img src="Willdfires_PolygonLegend.png" align="middle">  Area of fire when zoomed in.</p>
+        <p>&nbsp; 10,000-500,000 acres in size when zoomed out <img src="Willdfires_GraduatedLegend.png" align="left"><img src="Willdfires_PolygonLegend.png" align="middle">&nbsp; Area of fire when zoomed in</p>
 
         <h1>Wildfires in California</h1>
         <h2>Greater than 10,000 Acres 1878-2018</h2>
         <div class="row">
             <div class="first-column">
                 <p>
-                    This map shows the distribution of xyz.
-                    This data can be accessed at the data center (<a href="#p">center.gov</a>).
+                    This map is meant to show the wide distribution and sizelarge of wildfires in California over the last 140 years. It is difficult to show the specific extent of each fire and their size at statewide scale. To ameliorate this, graduated symbols were used to give a sense of fire size in acres ranging from 10,000 to 500,000 acrea. When zoomed in the map dynamically changes to polygons that are labeled with fire name, size in acres and year of occurence. The muted basemap is meant provide geographic context while keeping the focus on the bright orange fire features.<br>                This data can be accessed at the data center (<a href="#p">center.gov</a>).
                 </p>
                 <h3>Tools used in this project</h3>
                 <ul>
@@ -178,16 +180,19 @@
                     <!-- <li><a href="arches_us.geojson" download>point locations GeoJSON</a></li>-->
                 </ul>
                 </p>
-
-
             </div>
             <div class="column">
-                <img class="max-image-width" src="https://live.staticflickr.com/65535/47966434492_4d897a8cfd_z.jpg"
-                    title="UKy Campus">
-                <div class="linkbox">UKy Campus</div>
-
+                    <img class="max-image-width" src="../Graphics/Camp_NASAEarthObservatory.jpg"
+                    title="Camp Fire">
+                <div class="linkbox">Camp Fire, 2018 - NASA Earth Observatory</div>
             </div>
-        </div>
+            <div class="column">
+                <img class="max-image-width" src="../Graphics/kylegrillotnyt.jpg"
+                title="Getty Fire">
+            <div class="linkbox">Getty Fire, 2019 - Kyle Grillot, New York Times</div>
+            </div>
+        
+         </div>
 
 
         <hr>
